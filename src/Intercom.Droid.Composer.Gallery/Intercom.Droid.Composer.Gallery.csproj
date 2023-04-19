@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\..\common.props" />
+	<PropertyGroup>
+		<TargetFramework>net7.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Nerdbank.GitVersioning" Version="3.5.119">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Xamarin.Google.Android.Material" Version="1.4.0" />
+		<PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.8.20" />
+		<PackageReference Include="XamPrototype.Android.MavenBinding.Tasks" Version="0.0.7" />
+		<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.3.1" />
+		<PackageReference Include="Xamarin.AndroidX.RecyclerView" Version="1.3.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<AndroidMavenLibrary Include="com.intercom:android-composer-gallery" Version="3.3.3" />
+		<AndroidMavenLibrary Include="org.jetbrains.kotlin:kotlin-parcelize-runtime" Version="1.5.20" Bind="false" />
+		<AndroidMavenLibrary Include="org.jetbrains.kotlin:kotlin-android-extensions-runtime" Version="1.5.20" Bind="false" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Intercom.Droid.Composer\Intercom.Droid.Composer.csproj" JavaArtifact="com.intercom:android-composer" JavaVersion="3.3.3" />
+	</ItemGroup>
+</Project>
