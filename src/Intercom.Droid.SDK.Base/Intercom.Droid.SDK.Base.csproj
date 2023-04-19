@@ -71,16 +71,16 @@
 		<AndroidMavenLibrary Include="org.jetbrains.kotlinx:kotlinx-serialization-json" Version="1.4.1" Bind="false" />
 		<AndroidMavenLibrary Include="org.jetbrains.kotlinx:kotlinx-serialization-core-jvm" Version="1.5.0" Bind="false" />
 		<AndroidMavenLibrary Include="com.squareup.okio:okio" Version="3.2.0" Bind="false" />
-		<IgnoredMavenDependency Include="androidx.activity:activity-compose" Version="1.6.1" />
-		<IgnoredMavenDependency Include="androidx.compose.foundation:foundation" Version="1.3.1" />
-		<IgnoredMavenDependency Include="androidx.compose.material:material" Version="1.3.1" />
-		<IgnoredMavenDependency Include="androidx.compose.ui:ui" Version="1.3.3" />
-		<IgnoredMavenDependency Include="androidx.compose.ui:ui-tooling" Version="1.3.3" />
-		<IgnoredMavenDependency Include="androidx.lifecycle:lifecycle-runtime-ktx" Version="2.5.1" />
-		<IgnoredMavenDependency Include="androidx.lifecycle:lifecycle-viewmodel-compose" Version="2.5.1" />
-		<IgnoredMavenDependency Include="androidx.lifecycle:lifecycle-viewmodel-ktx" Version="2.5.1" />
-		<IgnoredMavenDependency Include="androidx.navigation:navigation-compose" Version="2.5.3" />
-		<IgnoredMavenDependency Include="com.google.android.flexbox:flexbox" Version="3.0.0" />
+		<AndroidMavenLibrary Include="androidx.activity:activity-compose" Version="1.6.1" Bind="false" Repository="Google"  />
+		<AndroidMavenLibrary Include="androidx.compose.foundation:foundation" Version="1.3.1" Bind="false" Repository="Google"  />
+		<AndroidMavenLibrary Include="androidx.compose.material:material" Version="1.3.1" Bind="false" Repository="Google"  />
+		<AndroidMavenLibrary Include="androidx.compose.ui:ui" Version="1.3.3" Bind="false" Repository="Google"  />
+		<AndroidMavenLibrary Include="androidx.compose.ui:ui-tooling" Version="1.3.3" Bind="false" Repository="Google"  />
+		<AndroidMavenLibrary Include="androidx.lifecycle:lifecycle-runtime-ktx" Version="2.5.1" Bind="false" Repository="Google"  />
+		<AndroidMavenLibrary Include="androidx.lifecycle:lifecycle-viewmodel-compose" Version="2.5.1" Bind="false" Repository="Google"  />
+		<AndroidMavenLibrary Include="androidx.lifecycle:lifecycle-viewmodel-ktx" Version="2.5.1" Bind="false" Repository="Google"  />
+		<AndroidMavenLibrary Include="androidx.navigation:navigation-compose" Version="2.5.3" Bind="false" Repository="Google"  />
+		<AndroidMavenLibrary Include="com.google.android.flexbox:flexbox" Version="3.0.0" Bind="false" Repository="Google" />
 	</ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\Intercom.Droid.Commons\Intercom.Droid.Commons.csproj" JavaArtifact="com.intercom:android-commons" JavaVersion="2.0.0" />
