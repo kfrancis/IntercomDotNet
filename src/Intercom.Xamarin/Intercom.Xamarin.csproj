@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0</TargetFrameworks>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Xamarin.Forms" Version="5.0.0.2578" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Intercom.Shared\Intercom.Shared.csproj" />
+	</ItemGroup>
+
+</Project>

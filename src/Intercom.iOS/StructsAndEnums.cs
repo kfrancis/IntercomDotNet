@@ -1,0 +1,4 @@
+namespace Intercom.iOS
+{
+
+}
